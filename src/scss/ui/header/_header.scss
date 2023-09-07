@@ -1,0 +1,11 @@
+@use 'base/vars';
+@use 'base/mixins';
+
+.header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0 20rem 0;
+
+    
+}
