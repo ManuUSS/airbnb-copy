@@ -1,7 +1,7 @@
 @use 'base/vars';
 @use 'base/mixins';
 
-.barra {
+.bar {
     display: none;
 
     @include mixins.tablet { 
@@ -10,5 +10,13 @@
         align-items: center;
     }
 
+    &__nav {
+        @include mixins.tablet { 
+            display: flex;
+            gap: 4rem; 
+        }
+
+    }
+ 
 
 }
