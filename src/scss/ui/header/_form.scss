@@ -44,4 +44,17 @@
         color: vars.$color_grey;
     }
     
+    
+    &__submit {
+        display: block;
+        height: 4rem;
+        border: none;
+        border-radius: 2rem;
+        background-image: radial-gradient( circle, rgb(255, 56, 92) 0%, vars.$color_secondary 100%  );
+        padding: 0 2rem;
+        color: vars.$color_white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
 }
