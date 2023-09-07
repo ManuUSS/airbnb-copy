@@ -19,6 +19,7 @@
         padding: 1rem 2rem;
         display: flex;
         flex-direction: column;
+        transition: all .3s ease-in-out;
 
         &:nth-child(1) {
             @include mixins.desktop { 
