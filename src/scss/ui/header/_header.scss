@@ -16,6 +16,6 @@
     }
     
     &__search-button {
-        @include mixins.button(vars.$blanco, vars.$primario );
+        @include mixins.button(vars.$color_white, vars.$color_primary );
     }
 }
