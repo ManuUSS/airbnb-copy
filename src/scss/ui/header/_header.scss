@@ -15,4 +15,7 @@
         }
     }
     
+    &__search-button {
+        @include mixins.button(vars.$blanco, vars.$primario );
+    }
 }
