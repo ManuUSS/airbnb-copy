@@ -1,4 +1,4 @@
-@use 'variables' as v; 
+@use 'vars' as v; 
 
 html {
     font-size: 62.5%;
@@ -9,15 +9,15 @@ html {
 }
   
 body {
-    font-family: v.$fuente_principal;
+    font-family: v.$font_principal;
     font-size: 1.6rem;
 }
 
 p {
-    color: v.$negro;
+    color: v.$color_black;
     font-size: 2rem;
 }
-.contenedor {
+.container {
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
@@ -33,6 +33,6 @@ ul {
     margin: 0;
 }
 
-.seccion {
+.section {
     padding: 2rem 0;
 }
