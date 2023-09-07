@@ -22,6 +22,9 @@
         color: vars.$color_white;
     }
 
-    
+    &__name {
+        color: vars.$color_white;
+        margin: 0;
+    }
 
 }
