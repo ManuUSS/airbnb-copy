@@ -1,0 +1,15 @@
+@use 'base/vars';
+@use 'base/mixins';
+
+.destinations {
+
+    &__grid {
+        @include mixins.grid(1, 2rem);
+        @include mixins.tablet { 
+            @include mixins.grid(2, 2rem);
+        }
+        @include mixins.desktop { 
+            @include mixins.grid(4, 2rem);
+        }
+    }
+}
