@@ -16,6 +16,7 @@
         background-size: 100%, 70rem;
         background-position: center, center 200%;
     }
+    
     @include mixins.tablet {
         grid-template-rows: unset;
         background-image: linear-gradient(to right, vars.$color_black 0%, vars.$color_black 45%, transparent 55%), url(../img/anfitrion.jpg);
@@ -23,4 +24,9 @@
         background-position: center, 50% 30%;
         padding: 15rem 5rem;
     }
+
+    @include m.desktop { 
+        background-position: center, right center;
+    }
+
 }
