@@ -29,4 +29,10 @@
         background-position: center, right center;
     }
 
+    &__content {
+        @include mixins.tablet { 
+            max-width: 50%;
+        }
+    }
+
 }
