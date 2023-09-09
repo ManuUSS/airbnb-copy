@@ -1,3 +1,19 @@
 @use 'base/vars';
 @use 'base/mixins';
 
+.places {
+    
+    &__grid {
+
+        display: grid;
+        grid-template-columns: repeat(4, 30rem);
+        column-gap: 4rem;
+        @include mixins.scrollHorizontal;
+        @include mixins.tablet { 
+            @include mixins.grid(2, 2rem);
+        }
+        @include mixins.desktop { 
+            @include mixins.grid(4, 2rem);    
+        }
+    }
+}
