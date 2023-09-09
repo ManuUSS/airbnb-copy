@@ -1,2 +1,9 @@
 @use 'base/vars';
 @use 'base/mixins';
+
+.footer {
+    background-color: lighten( v.$grisClaro, 7%);
+    border-top: 1px solid lighten( v.$gris, 40% );
+    padding-top: 5rem;
+    
+}
