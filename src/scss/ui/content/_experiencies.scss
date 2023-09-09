@@ -10,6 +10,7 @@
         @include mixins.scrollHorizontal;
 
         @include mixins.tablet { 
+            overflow: hidden;
             @include mixins.grid(3, 2rem);
         }
     }
