@@ -36,7 +36,14 @@
     }
 
     &__text {
-        color: v.$blanco;
+        color: vars.$color_white;
+    }
+
+    &__link {
+        @include mixins.boton(vars.$color_white, vars.$color_black);
+        border-radius: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
 }
