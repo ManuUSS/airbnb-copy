@@ -14,3 +14,16 @@
         }
     }
 }
+
+.experience {
+    &__image {
+        border-radius: 1rem;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    &__description {
+        font-size: 1.8rem;
+    }
+}
