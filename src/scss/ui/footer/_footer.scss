@@ -46,4 +46,13 @@
         }
     }
 
+    
+    &__link--bar {
+
+        &::before {
+            content: ' - ';
+            margin-right: .5rem;
+        }
+    }
+
 }
