@@ -20,5 +20,19 @@
         font-size: 1.2rem;
     }
 
+    
+    &__enlace {
+        display: block;
+        color: vars.$color_grey;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+
+    }
+
+    &__bar {
+        border-top: 1px solid lighten(vars.$color_grey, 40%);
+        margin-top: 2rem;
+        padding: 2rem 0;
+    }
 
 }
