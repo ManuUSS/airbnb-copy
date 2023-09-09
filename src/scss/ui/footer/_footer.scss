@@ -35,4 +35,15 @@
         padding: 2rem 0;
     }
 
+    
+    &__bar-nav {
+        display: flex;
+        flex-direction: column;
+
+        @include mixins.tablet { 
+            flex-direction: row;
+            gap: 2rem;
+        }
+    }
+
 }
