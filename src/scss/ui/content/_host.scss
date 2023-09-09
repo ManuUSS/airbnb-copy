@@ -25,7 +25,7 @@
         padding: 15rem 5rem;
     }
 
-    @include m.desktop { 
+    @include mixins.desktop { 
         background-position: center, right center;
     }
 
@@ -40,7 +40,7 @@
     }
 
     &__link {
-        @include mixins.boton(vars.$color_white, vars.$color_black);
+        @include mixins.button(vars.$color_white, vars.$color_black);
         border-radius: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
