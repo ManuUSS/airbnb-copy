@@ -11,4 +11,9 @@
     background-size: 100%, 60rem;
     background-position: center, center bottom;
     background-repeat: no-repeat;
+
+    @include mixins.phone { 
+        background-size: 100%, 70rem;
+        background-position: center, center 200%;
+    }
 }
